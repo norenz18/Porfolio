@@ -1,0 +1,141 @@
+.contact {
+  margin: 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+
+.contact-name #name,
+.contact-email #email,
+.contact-area #textarea {
+  padding: 15px 0;
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #004db1c9;
+  color: #004db1c9;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.contact-button #submit {
+  margin: 20px 0 0 450px;
+  padding: 5px 30px;
+  background-color: #0165cf;
+  border: 3px solid #0165cf;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.contact-button #submit:hover {
+  background-color: #004db1c9;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0 5px 0;
+}
+
+.footer .icons a img {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.footer .icons img {
+  transition: 0.5s;
+}
+
+.footer .icons a:hover img {
+  transform: translateY(-10px);
+}
+.footer .text-footer p {
+  font-size: 15px;
+}
+.up-arrow {
+  position: relative;
+  opacity: 0;
+}
+.up-arrow img {
+  position: fixed;
+  z-index: 99;
+  bottom: 15px;
+  right: 15px;
+  height: 40px;
+  background-color: #bbb;
+  color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+
+  /* opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: initial;
+  animation-timing-function: ease-in;
+  animation-duration: 2s; */
+}
+.up-arrow img:hover {
+  background-color: #ccc;
+}
+/* @keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+/*     Responsiveness   */
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    flex-direction: column;
+  }
+  .contact-name #name {
+    text-align: center;
+    width: 300px;
+  }
+  .contact-email #email {
+    text-align: center;
+    width: 300px;
+  }
+  .contact-area #textarea {
+    text-align: center;
+    width: 300px;
+  }
+  .contact-button #submit {
+    margin-left: 0;
+    width: 300px;
+  }
+
+  /* About Section */
+  .about {
+    padding: 30px 0 0 0;
+  }
+  .about-me {
+    margin: 50px 0;
+  }
+  .about-me h1 {
+    font-size: 45px;
+    padding: 30px 0;
+  }
+  .about-work {
+    margin-top: 0;
+  }
+}
+/* Hero Section */
+/* @media screen and (max-width: 1024px), screen and (min-height: 300px) {
+  #arrow {
+    display: none;
+  }
+} */

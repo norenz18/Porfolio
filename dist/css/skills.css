@@ -1,0 +1,45 @@
+.skills {
+  margin: 0;
+  padding: 30px 30px;
+}
+.title-skills {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  font-weight: 700;
+}
+.dynamic img {
+  max-height: 200px;
+  padding-bottom: 20px;
+}
+.dynamic h1 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding-bottom: 50px;
+  color: #5199e4;
+}
+
+.secured img {
+  max-height: 200px;
+  padding-bottom: 20px;
+}
+.secured h1 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding-bottom: 50px;
+  color: #5199e4;
+}
+
+.responsive img {
+  max-height: 200px;
+  padding-bottom: 20px;
+}
+.responsive h1 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding-bottom: 50px;
+  color: #5199e4;
+}

@@ -1,0 +1,50 @@
+.about {
+  margin-top: 3.5%;
+  background: #f8f8f8;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+.title-about {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+.about-work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  position: relative;
+}
+.about-me,
+.about-work {
+  margin: 0 50px;
+}
+.about-me h1 {
+  font-size: 65px;
+  font-weight: 700;
+  color: #5199e4;
+}
+.about-me h1 span {
+  color: red;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.about-work p {
+  color: #000;
+  font-size: 18px;
+  top: 50%;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.about-work p span {
+  color: red;
+}
