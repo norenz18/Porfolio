@@ -20,8 +20,8 @@
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 1px solid #004db1c9;
-  color: #004db1c9;
+  border-bottom: 1px solid #5199e4;
+  color: #5199e4;
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 6px;
@@ -29,11 +29,11 @@
 .contact-button #submit {
   margin: 20px 0 0 450px;
   padding: 5px 30px;
-  background-color: #0165cf;
-  border: 3px solid #0165cf;
+  background-color: #5199e4;
+  border: none;
   color: #fff;
   font-size: 22px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .contact-button #submit:hover {
@@ -45,7 +45,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding: 100px 0 5px 0;
+  padding: 50px 0 5px 0;
 }
 
 .footer .icons a img {
