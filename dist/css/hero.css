@@ -17,5 +17,6 @@
 
 .hero img {
   max-height: 300px;
+  border: 2px solid #5199e4;
   border-radius: 100% 100%;
 }
